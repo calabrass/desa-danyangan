@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment files — jangan pernah commit credential
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials / private keys / dumps
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+*.sql
+*.dump
+*.bak
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Prompt & instruksi AI internal — jangan push ke GitHub
+DESIGN.md
+PRD (1).md
+WORKFLOW.md
+supa.md
+src/data/backend_instruction.md
+
+# Arsip foto original (aset deploy sudah ada di public/) — jangan push
+foto kegiatan/
